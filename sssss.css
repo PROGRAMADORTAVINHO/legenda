@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+#map {
+    height: 76.04562737642586vh;
+    width: 99%;
+}
+
+.teste{
+    border: 1px solid rgb(0, 0, 0);
+    height: 76.04562737642586vh;
+}
+.LegendaMapa {
+    display: flex;
+}
+
+.mapa {
+    width: 100%;
+}
+
+.Pontos {
+    margin-left: 30px;
+    width: 40%;
+}
+
+.PontoVerde {
+    margin-right: 32%;
+    display: flex;
+}
+
+.PontoVerde .texto {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 500px;
+}
+
+.PontoCinza .texto {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 500px;
+}
+
+.PontoCinza {
+    display: flex;
+}
+
+.PontoDeDiscarte {
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 20%;
+    display: flex;
+    padding-top: 3%;
+    margin-bottom: 20px;
+    margin-left: 90px;
+}
+.CadastroDePontos{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 250px;
+    display: flex;
+    margin-left: 80px;
+    text-align: center;
+}
+.Textos{
+    margin-left: 80px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    width: 250px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.foto{
+    padding-left: 50px;
+}
+.foto button {
+    margin-left: 125px;
+    width: 100px;
+    height: 5%;
+    background-color: rgb(18, 164, 221);
+    border-radius: 5%;
+    color: black;
+    border: solid 2px rgb(16, 144, 194);
+  }
+  .foto{
+    width: 50%;
+    background-color: red;
+  }
